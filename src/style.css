@@ -1,0 +1,185 @@
+
+.cabecalho{
+    
+    display: flex;
+    justify-content: space-around;
+    gap: 1100px;
+    align-items: center;
+    padding: 15px;  
+}
+
+.logo{
+    color: white;
+    
+}
+
+.menu a{
+    
+    color: white;
+      
+}
+
+.home{
+    background-color:black;
+    display: flex;
+    height: 100vh;
+    width: 900px;
+    justify-content: center;
+    align-items: center;
+    color: white;; 
+    
+}
+
+.foto img{
+    width: 320px;
+    height: 310px;
+    border-radius: 190px;
+    
+    
+}
+
+body{
+   
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   background: black;
+   font-family: Courier New, monospace;
+   
+  
+   
+}
+
+.informacoes{
+    
+    text-align: center;
+    padding: 20px;
+    
+    
+}
+
+.informacoes ul{
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    font-size: 25px;
+    margin-top: 30px;
+    align-items: center;
+}
+
+.informacoes h1{
+    font-size: 33px;
+
+}
+
+.informacoes p{
+    font-size: 20px;
+    margin-top: 20px;
+    color:rgba(255, 255, 255, 0.877);
+}
+
+.informacoes p span{
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.623);
+   
+}
+
+.projetos{
+    background-color: black;
+    text-align: center;
+    margin-top: 30px;
+    padding: 10px;
+    width: 900px;
+    color: white;
+
+}
+
+.projetos #titulo{
+
+    color:white;
+    font-size: 40px;
+}
+
+.projetos h1{
+    font-size: 27px;
+    
+   
+}
+
+#projetos{
+    display: flex;
+    padding: 25px;
+    gap: 15px;
+    height: 270px;
+    width: 880px;
+}
+
+#projetos2{
+    display: flex;
+    padding: 25px;
+    gap: 15px;
+    height: 270px;
+    width: 880px;
+    margin-top: 20px;
+}
+
+.projeto{
+    background-color:rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    font-size: 13px;
+    width: 600px;
+    border-radius: 15px;
+    border: 3px;
+    border-style: double;
+    border-color: rgb(2, 117, 117);
+    height: 280px;
+
+    
+}
+
+.projeto p{
+    
+    margin-top: 10px;
+    height: 80px;
+    color:rgba(255, 255, 255, 0.733);
+    
+}
+
+.press{
+    
+    margin-top: 20px;
+}
+
+.start{
+    background-color: rgb(250, 8, 0);
+    width: 120px;
+    border-style:groove;
+    border-color: rgb(252, 68, 68);
+    border-radius: 10px;
+    color: black;
+    
+    
+}
+
+
+.projeto:hover{
+    background-color: rgb(1, 24, 24);
+    transform: scale(1.05);
+} 
+
+.start:hover{
+    transform: scale(1.05);
+}
+
+.logo:hover{
+    transform: scale(1.05);
+}
+
+.menu:hover{
+    transform: scale(1.05);
+}
+

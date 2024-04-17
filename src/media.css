@@ -1,0 +1,55 @@
+@media screen and (max-width:760px){
+
+
+.cabecalho{
+  
+  
+  width: 450px;
+  align-items: center;
+  margin: auto;
+  gap: 200px;
+
+}
+
+    .home{ 
+     width: 450px;
+     height: 870px;
+     flex-direction: column;
+     align-items: center;
+    }
+    .informacoes{
+     
+      height: 500px;
+      
+    }
+
+    .foto{
+      
+      margin-top: 50px;
+    }
+
+    
+
+    #projetos{
+       
+       height: 880px;
+       width: 400px;
+       margin: auto;
+     flex-direction: column;
+     align-items: center;
+    }
+    #projetos2{
+        
+        height: 880px;
+        width: 400px;
+       margin: auto;
+       flex-direction: column;
+       align-items: center;
+       
+      }
+
+      .projeto{
+        width: 300px
+      }
+      
+ }
